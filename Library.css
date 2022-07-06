@@ -1,0 +1,78 @@
+﻿.contain{
+    height: 82vh;
+}
+
+.container{
+    height: 15vh;
+    display: block;
+    margin-bottom: 8rem;
+    padding: 1rem;
+}
+
+.bottom{
+    height: 14vh;
+    width: 90%;
+    position: fixed;
+    background-color: #23232e;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ProgressBar{
+    margin-left: 30px;
+    width: 130vh;
+}
+
+.bottom .icon img{
+    width: 2rem;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.songitem{
+    display: inline-block;
+    flex-direction: column;
+    height: 100px;
+    width: 150px;
+    padding-right: 40px; 
+}
+
+.songlist{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.songitem img{
+    width: 150px;
+}
+
+.songlistplay i img{
+    width: 1rem;
+}
+
+.songinfo{
+    position: absolute;
+    left: 16vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: 1s ease-in;
+}
+
+i{
+    cursor: pointer;
+}
+
+input{
+    cursor: pointer;
+}
+
+.head{
+    font-size:40px;
+}

@@ -1,0 +1,61 @@
+﻿.container{
+    padding: 0 80px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+
+.about-head{
+    display: inline-block;
+}
+
+.about-head img{
+    padding: 0 50px;
+    width: 950px;
+}
+
+.about-body{
+    display: flex;
+}
+
+.about-me{
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.about-body img{
+    border-radius: 50%;
+    width: 240px;
+}
+
+.social{
+    width: 320px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background: #ECF2FF;
+}
+
+.social >a{
+    width: 25%;
+    font-size: 2rem;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    background: #fff;
+    margin: 10px;
+    transition: 0.4s;
+    box-shadow: rgb(204, 219, 232)3px 3px 6px 0px, rgba(255, 255, 255)-3px -3px 6px 1px;
+}
+
+.social >a:hover{
+    transform:translateY(-10px);
+}
+
+p{
+    font-size: 17px;
+}
