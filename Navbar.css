@@ -1,6 +1,6 @@
 ﻿:root{
   font-size: 16px;
-  font-family: 'Century Gothic';
+  font-family: 'Century Gothic', 'URW Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url("./Resources/bg.jpg");
+    background: url("./Resources/bg.jpg") no-repeat;
     background-size: cover;
     color: white;
     margin: 0;
