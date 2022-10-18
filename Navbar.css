@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url("./Resources/bg.jpg") no-repeat;
+    background: url("./Resources/bg.jpg");
     background-size: cover;
     color: white;
     margin: 0;
