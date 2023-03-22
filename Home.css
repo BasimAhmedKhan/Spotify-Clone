@@ -1,60 +1,107 @@
-﻿.container{
-    height: 72vh;
-    display: flex
-    
+﻿:root {
+    font-size: 16px;
+    font-family: 'Century Gothic', 'URW Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
 }
 
-.bottom{
-    height: 13vh;
+body {
+    background: url("./Resources/bg.jpg");
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body::-webkit-scrollbar {
+    width: 0.75rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.songitem {
+    display: flex;
+    flex-direction: column;
+    height: 6.25rem;
+    width: 10rem;
+    padding-bottom: 8.35rem;
+    padding-right: 2.5rem;
+}
+
+.songlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.songitem img {
+    width: 150px;
+}
+
+.songlistplay i img {
+    width: 1rem;
+}
+
+.bottom {
+    height: 12%;
     width: 90%;
     position: fixed;
+    bottom: 0;
     background-color: #23232e;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#ProgressBar{
-    margin-left: 30px;
-    width: 130vh;
+#ProgressBar {
+    width: 80%;
 }
 
-.bottom .icon img{
+.bottom .icon img {
     width: 2rem;
-    margin-top: 7px;
+    margin-top: 0.5rem;
     cursor: pointer;
 }
 
-.songitem{
+.songinfo-container{
     display: flex;
-    flex-direction: column;
-    height: 100px;
-    width: 150px;
-    padding-bottom: 110px;
-    padding-right: 40px;
+    align-items: center;
 }
 
-.songlist{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.songitem img{
-    width: 150px;
-}
-
-.songlistplay i img{
-    width: 1rem;
-}
-
-.songinfo{
+.songinfo {
     position: absolute;
     left: 16vw;
 }
 
-.songinfo img{
+.songinfo img {
     opacity: 0;
     transition: 1s ease-in;
 }

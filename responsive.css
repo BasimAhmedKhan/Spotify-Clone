@@ -1,0 +1,106 @@
+/* navbar */
+
+.navbar {
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #23232e;
+    transition: width 200ms ease;
+}
+
+.navbar-nav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+}
+
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #ececec;
+    background: #141418;
+    font-size: 1.5rem;
+    letter-spacing: 0.3ch;
+    width: 100%;
+}
+
+.nav-link img {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.link-text{
+    color: white;
+}
+
+.nav-item {
+    display: none;
+}
+
+/* Mobile View */
+
+main {
+    margin: 5rem 0rem;
+    padding: 0;
+}
+
+h2{
+    padding: 1rem 0rem;
+}
+
+.margin {
+    margin: 0rem 1rem;
+}
+
+.songlist {
+    grid-template-columns: 1fr 1fr;
+}
+
+.songinfo-container {
+    flex-direction: column;
+}
+
+.songinfo {
+    position: static;
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 300px) {
+    :root {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    :root {
+        font-size: 16px;
+    }
+}
+
+/* @media only screen and (min-width: 768px) {
+    
+} */
+
+@media only screen and (min-width: 850px) {
+    :root {
+        font-size: 15px;
+    }
+}

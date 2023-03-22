@@ -1,39 +1,4 @@
-﻿:root{
-  font-size: 16px;
-  font-family: 'Century Gothic', 'URW Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  --text-primary: #b6b6b6;
-  --text-secondary: #ececec;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
-  --transition-speed: 600ms;
-}
-
-body {
-    background: url("./Resources/bg.jpg");
-    background-size: cover;
-    color: white;
-    margin: 0;
-    padding: 0;
-}
-
-main {
-  margin-left: 5rem;
-  padding: 1rem;
-}
-
-body::-webkit-scrollbar {
-  width: 0.75rem;
-}
-
-body::-webkit-scrollbar-track {
-  background: #1e1e24;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: #6649b8;
-}
-
-.navbar {
+﻿.navbar {
   width: 5rem;
   height: 100vh;
   position: fixed;
@@ -83,12 +48,12 @@ body::-webkit-scrollbar-thumb {
   filter: drop-shadow(-3px -5px 0px #AA10D8);
 }
 
-.navbar:hover{
-    width: 16rem;
+.navbar:hover {
+  width: 16rem;
 }
 
-.navbar:hover .link-text{
-    display: block;
+.navbar:hover .link-text {
+  display: block;
 }
 
 .logo {
@@ -108,8 +73,7 @@ body::-webkit-scrollbar-thumb {
   transition: 600ms;
 }
 
-.logo-text
-{
+.logo-text {
   display: inline;
   position: absolute;
   left: -999px;
@@ -119,4 +83,3 @@ body::-webkit-scrollbar-thumb {
 .navbar:hover .logo img {
   transform: rotate(-360deg);
 }
-

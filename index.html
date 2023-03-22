@@ -1,18 +1,24 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify - Music On The Go</title>
-	<meta charset="utf-8" />
-    <link href="Navbar.css" rel="stylesheet" />
     <link href="Home.css" rel="stylesheet" />
+    <link href="Navbar.css" media="screen and (min-width: 1100px)" rel="stylesheet" />
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="./responsive.css">
+
 </head>
+
 <body>
     <nav class="navbar">
         <ul class="navbar-nav">
             <li class="logo">
                 <a class="nav-link" href="./Home.html">
                     <img src="./Resources/spotify.svg" />
-                    <span class="link-text" >Spotify</span>
+                    <span class="link-text">Spotify</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -48,8 +54,8 @@
         </ul>
     </nav>
     <main>
-        <h1>Made For You!</h1>
-        <div class="container">
+        <h1 class="margin">Made For You!</h1>
+        <div class="container margin">
             <div class="songlist">
                 <div class="songitem">
                     <img src="./covers/1.jpg" alt="1" />
@@ -411,22 +417,26 @@
                     <span class="songName">Let me love You</span>
                     <span class="songlistplay"><i id="71" class="far songItemPlay fa-play-circle"></i></span>
                 </div>
-                <h1 class="head">There is Always More</h1>
+                <h1 class="head">There is Always</h1>
             </div>
         </div>
-        <div class="bottom">
+        <div class="bottom margin">
             <input type="range" name="range" id="ProgressBar" min="0" max="100" />
-            <div class="icon">
-                <i class="fas fa-2x fa-step-backward" id="previous"></i>
-                <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
-                <i class="fas fa-2x fa-step-forward" id="next"></i>
-            </div>
-            <div class="songinfo">
-                <img src="./Resources/playing.gif" width="45px" alt="" id="gif"/><span id="masterSongName"> Let me love you - Justin Bieber</span>
+            <div class="songinfo-container">
+                <div class="songinfo">
+                    <img src="./Resources/playing.gif" width="45px" alt="" id="gif" />
+                    <span id="masterSongName"> Let me love you - Justin Bieber</span>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-2x fa-step-backward" id="previous"></i>
+                    <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+                    <i class="fas fa-2x fa-step-forward" id="next"></i>
+                </div>
             </div>
         </div>
     </main>
     <script src="./script.js"></script>
     <script src="https://kit.fontawesome.com/d5b2540b36.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
