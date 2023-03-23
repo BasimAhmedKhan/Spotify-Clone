@@ -9,22 +9,26 @@ Spotify Clone made by only using HTML, CSS, JS. Spotify is a music streaming pla
 
 Check Out the Live Version -> [Spotify-Clone](https://basimahmedkhan.github.io/Spotify-Clone/)
 
-![Demo](https://github.com/BasimAhmedKhan/2048-Game/blob/main/Readme%20Resources/new.gif)
+![Demo](https://github.com/BasimAhmedKhan/Spotify-Clone/blob/main/Readme%20Resources/Spotify-Clone.gif)
 
 
 ## Screenshots
 
-New Game
+Log In
 
-![App Screenshot](https://github.com/BasimAhmedKhan/2048-Game/blob/main/Readme%20Resources/2048%20Screenshot.png)
+![App Screenshot](https://github.com/BasimAhmedKhan/Spotify-Clone/blob/main/Readme%20Resources/login.png)
 
-After Some Playing
+Home
 
-![App Screenshot](https://github.com/BasimAhmedKhan/2048-Game/blob/main/Readme%20Resources/2048%20Screenshot2.png)
+![App Screenshot](https://github.com/BasimAhmedKhan/Spotify-Clone/blob/main/Readme%20Resources/home.png)
 
+About Us
 
+![App Screenshot](https://github.com/BasimAhmedKhan/Spotify-Clone/blob/main/Readme%20Resources/about.png)
 
+Library
 
+![App Screenshot](https://github.com/BasimAhmedKhan/Spotify-Clone/blob/main/Readme%20Resources/library.png)
 
 ## Support
 
@@ -45,8 +49,8 @@ Thanks a Bunch for Stopping By! <3
 
 ## Tech Stack
 Front-End
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" data-canonical-src="[https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png]" width="200" />
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" data-canonical-src="[https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png]" width="200" /> 
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" data-canonical-src="[https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png]" width="150" />
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" data-canonical-src="[https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png]" width="150" /> 
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" data-canonical-src="[https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png]" width="200" />
 
 
